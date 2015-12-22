@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'sqlite' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'sqlite', null ]
+5 verbose cache add name=undefined spec="sqlite" args=["sqlite",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'sqlite',
+6 verbose parsed url   path: 'sqlite',
+6 verbose parsed url   href: 'sqlite' }
+7 silly lockFile 6d64a5ee-sqlite sqlite
+8 verbose lock sqlite /home/huseen/.npm/6d64a5ee-sqlite.lock
+9 silly lockFile 6d64a5ee-sqlite sqlite
+10 silly lockFile 6d64a5ee-sqlite sqlite
+11 verbose addNamed [ 'sqlite', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 02179a0b-sqlite sqlite@
+14 verbose lock sqlite@ /home/huseen/.npm/02179a0b-sqlite.lock
+15 silly addNameRange { name: 'sqlite', range: '*', hasData: false }
+16 verbose url raw sqlite
+17 verbose url resolving [ 'https://registry.npmjs.org/', './sqlite' ]
+18 verbose url resolved https://registry.npmjs.org/sqlite
+19 info trying registry request attempt 1 at 19:18:48
+20 verbose etag "EWN7W206VQ5EY1B35LEQ0J5B2"
+21 http GET https://registry.npmjs.org/sqlite
+22 http 404 https://registry.npmjs.org/sqlite
+23 silly registry.get cb [ 404,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"EWN7W206VQ5EY1B35LEQ0J5B2"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=0',
+23 silly registry.get     'content-length': '480',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Sun, 04 Oct 2015 01:18:47 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-dfw1825-DFW',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1443921527.464408,VS0,VE70',
+23 silly registry.get     vary: 'Accept' } ]
+24 silly addNameRange number 2 { name: 'sqlite', range: '*', hasData: true }
+25 silly addNameRange versions [ 'sqlite', [] ]
+26 error TypeError: Cannot read property 'latest' of undefined
+26 error     at next (/usr/share/npm/lib/cache.js:687:35)
+26 error     at /usr/share/npm/lib/cache.js:675:5
+26 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+26 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+26 error     at Object.oncomplete (fs.js:107:15)
+27 error If you need help, you may report this log at:
+27 error     <http://github.com/isaacs/npm/issues>
+27 error or email it to:
+27 error     <npm-@googlegroups.com>
+28 error System Linux 3.19.0-30-generic
+29 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "sqlite"
+30 error cwd /media/sf_AppDesign/AppDesign
+31 error node -v v0.10.25
+32 error npm -v 1.3.10
+33 error type non_object_property_load
+34 verbose exit [ 1, true ]

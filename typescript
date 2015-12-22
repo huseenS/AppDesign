@@ -1,0 +1,197 @@
+Script started on Tue 22 Sep 2015 07:55:37 PM MDT
+]0;huseen@huseen-VirtualBox: ~huseen@huseen-VirtualBox:~$ cd ls
+bash: cd: ls: No such file or directory
+]0;huseen@huseen-VirtualBox: ~huseen@huseen-VirtualBox:~$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         [01;34mMusic[0m     [01;34mPublic[0m  [01;34mSublime Text 2[0m  typescript
+[01;34mDocuments[0m  examples.desktop  [01;34mPictures[0m  [01;34mshared[0m  [01;34mTemplates[0m       [01;34mVideos[0m
+]0;huseen@huseen-VirtualBox: ~huseen@huseen-VirtualBox:~$ pwd
+/home/huseen
+]0;huseen@huseen-VirtualBox: ~huseen@huseen-VirtualBox:~$ cd /
+]0;huseen@huseen-VirtualBox: /huseen@huseen-VirtualBox:/$ s[Kls
+[0m[01;34mbin[0m    [01;34mdev[0m   [01;36minitrd.img[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msys[0m  [01;34mvar[0m
+[01;34mboot[0m   [01;34metc[0m   [01;34mlib[0m         [01;34mmedia[0m       [01;34mproc[0m  [01;34msbin[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m
+[01;34mcdrom[0m  [01;34mhome[0m  [01;34mlib64[0m       [01;34mmnt[0m         [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m
+]0;huseen@huseen-VirtualBox: /huseen@huseen-VirtualBox:/$ cd mde[K[K[K/media
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ ls
+[0m[01;34mhuseen[0m  [01;34msf_AppDesign[0m
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ m[Kcd /sf_AppDesign
+bash: cd: /sf_AppDesign: No such file or directory
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ man
+What manual page do you want?
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ grep
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ q
+q: command not found
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ apropos
+apropos what?
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ g[Klook up
+Upanishads
+Updike
+Upjohn
+Upjohn's
+Upton
+Upton's
+up
+upbeat
+upbeat's
+upbeats
+upbraid
+upbraided
+upbraiding
+upbraids
+upbringing
+upbringing's
+upbringings
+upchuck
+upchucked
+upchucking
+upchucks
+upcoming
+upcountry
+upcountry's
+update
+update's
+updated
+updater
+updates
+updating
+updraft
+updraft's
+updrafts
+upend
+upended
+upending
+upends
+upfront
+upgrade
+upgrade's
+upgraded
+upgrades
+upgrading
+upheaval
+upheaval's
+upheavals
+upheld
+uphill
+uphill's
+uphills
+uphold
+upholding
+upholds
+upholster
+upholstered
+upholsterer
+upholsterer's
+upholsterers
+upholstering
+upholsters
+upholstery
+upholstery's
+upkeep
+upkeep's
+upland
+upland's
+uplands
+uplift
+uplift's
+uplifted
+uplifting
+upliftings
+uplifts
+upload
+upmarket
+upon
+upped
+upper
+upper's
+uppercase
+uppercase's
+upperclassman
+upperclassman's
+upperclassmen
+uppercut
+uppercut's
+uppercuts
+uppercutting
+uppermost
+uppers
+upping
+uppity
+upraise
+upraised
+upraises
+upraising
+upright
+upright's
+uprights
+uprising
+uprising's
+uprisings
+uproar
+uproar's
+uproarious
+uproariously
+uproars
+uproot
+uprooted
+uprooting
+uproots
+ups
+upscale
+upset
+upset's
+upsets
+upsetting
+upshot
+upshot's
+upshots
+upside
+upside's
+upsides
+upstage
+upstaged
+upstages
+upstaging
+upstairs
+upstanding
+upstart
+upstart's
+upstarted
+upstarting
+upstarts
+upstate
+upstate's
+upstream
+upsurge
+upsurge's
+upsurged
+upsurges
+upsurging
+upswing
+upswing's
+upswings
+uptake
+uptake's
+uptakes
+uptight
+uptown
+uptown's
+upturn
+upturn's
+upturned
+upturning
+upturns
+upward
+upwardly
+upwards
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ info
+[?1h=[?1049h[H[2J[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[1;1HFile: dir,      Node: Top       This is the top of the INFO tree[3;1H  This (the Directory node) gives a menu of major topics.[4;1H  Typing "q" exits, "?" lists all Info commands, "d" returns here,[5;1H  "h" gives a primer for first-timers,[6;1H  "mEmacs<Return>" visits the Emacs manual, etc.[8;1H  In Emacs, you can click mouse button 2 on a menu item or cross reference[9;1H  to select it.[11;1H* Menu:[13;1HBasics[14;1H* Common options: (coreutils)Common options.[15;1H* Coreutils: (coreutils).       Core GNU (file, text, shell) utilities.[16;1H* Date input formats: (coreutils)Date input formats.[17;1H* Ed: (ed).                     The GNU line editor[18;1H* File permissions: (coreutils)File permissions.[19;1H                                Access modes.[20;1H* Finding files: (find).        Operating on files matching certain criteria.[22;1HC++ libraries[23;1H[7m-----Info: (dir)Top, 254 lines --Top--------------------------------------------[0m[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[1;1H[24;1H[K[2;1H[2;1H[3;1H[3;1H[4;1H[4;1H[5;1H[5;1H[6;1H[6;1H[7;1H[7;1H[8;1H[8;1H[9;1H[9;1H[10;1H[10;1H[24;1H[K[?1l>[?1049l]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ info info
+[?1h=[?1049h[H[2J[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[1;1HFile: *manpages*,  Node: info,  Up: (dir)[3;1HINFO(1)                          User Commands                         INFO(1)[7;1HNAME[8;1H       info - read Info documents[10;1HSYNOPSIS[11;1H       info [OPTION]... [MENU-ITEM...][13;1HDESCRIPTION[14;1H       Read documentation in Info format.[16;1HOPTIONS[17;1H       -a, --all[18;1H              use all matching manuals.[20;1H       -k, --apropos=STRING[21;1H              look up STRING in all indices of all manuals.[23;1H[7m-----Info: (*manpages*)info, 170 lines --Top------------------------------------[0m[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[24;1HWelcome to Info version 5.2. Type h for help, m for menu item.[1;1H[24;1H[K[24;1H[K[?1l>[?1049l]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ ls -l
+total 4
+drwxr-x---+ 3 root root   4096 Sep 22 19:49 [0m[01;34mhuseen[0m
+drwxrwx---  1 root vboxsf    0 Sep 22 19:51 [01;34msf_AppDesign[0m
+]0;huseen@huseen-VirtualBox: /mediahuseen@huseen-VirtualBox:/media$ exit
+exit
+
+Script done on Tue 22 Sep 2015 08:00:22 PM MDT

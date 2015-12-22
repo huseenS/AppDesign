@@ -1,0 +1,16 @@
+body {
+    background-image: url(http://onlineteachingtoolkit.com/images/yellow-white-gradient.jpg);
+}
+
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    display: block;
+}
+
+tr { 
+	display: block; float: left; 
+}

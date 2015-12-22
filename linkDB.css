@@ -1,0 +1,31 @@
+body {
+    background-image: url(http://onlineteachingtoolkit.com/images/yellow-white-gradient.jpg);
+}
+
+.listStyle {
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    float: left;
+    clear: left;
+}
+
+#li{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    float: left;
+    clear: left;
+}
+/* hover link preview not working at the moment */
+.box{
+	display:none;
+	width: 100%;
+}
+a:hover +.box,.box:hover {
+	display: block;
+	position: relative;
+	z-index: 100;
+}
+*/

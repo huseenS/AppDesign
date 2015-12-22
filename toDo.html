@@ -1,0 +1,21 @@
+
+<html>
+  <head>
+    <title>Awesome App Design To-Do List!!!</title>
+    <link rel="stylesheet" type="text/css" href="pretty.css">
+  </head>
+  <body onload="pageLoaded()">
+    <div id="list_container" class = "listClass">
+      <ul id="the_list">
+      </ul>
+    </div>
+    <input id="new_item_text" type="text" value="Add new thing"></input>
+    <input id = "removeInput" type = "text" value = "Item to Remove"></input>
+    <input onclick ="removeItem()" type = "button" value = "Remove!!"></input>
+    <input onchange="priorityChange()" id="priority_input" type="range"
+        value="20" min="0" max="100" step="1"></input>
+    <input onclick="addItem()" type="button" value="Add!!!"></input>
+    <script src="toDo.js"></script>
+  </body>
+</html>
+

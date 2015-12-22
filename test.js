@@ -1,0 +1,6 @@
+for (var i = 0; i < Things.length; i++) {
+	Things[i]
+};
+
+console.log();
+

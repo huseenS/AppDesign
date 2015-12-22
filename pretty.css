@@ -1,0 +1,16 @@
+.lowPrio {
+	font-size: 15;
+	font-weight: bold;
+	background-color: blue;
+}
+/*.medPrio {
+	font-size: 25;
+	font-weight: bolder;
+	background-color: yellow;
+}
+*/
+.highPrio {
+	font-size: 25;
+	font-weight: bolder;
+	background-color: red;
+}
